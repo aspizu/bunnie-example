@@ -1,0 +1,12 @@
+{
+    "name": "bunnie-example",
+    "version": "1.0.0",
+    "type": "module",
+    "dependencies": {
+        "bunnie": "../bunnie"
+    },
+    "devDependencies": {
+        "@types/bun": "^1.3.8",
+        "@types/node": "^25.1.0"
+    }
+}
