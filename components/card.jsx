@@ -1,4 +1,4 @@
-export function Card({size = "default", children, ...props}) {
+export default function Card({size = "default", children, ...props}) {
     return (
         <div
             class={[
