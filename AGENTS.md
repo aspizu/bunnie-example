@@ -1,3 +1,9 @@
+## guidelines for writing backend code:
+
+use HTMX and hyperscript for interactivity.
+
+## guidelines for writing bunnie components:
+
 Use `.jsx` (not typescript) extension for components.
 Components should be 100% pure, no state or side effects, do not read from disk or network.
 Use HTML attribute names (e.g. `class` instead of `className`).
